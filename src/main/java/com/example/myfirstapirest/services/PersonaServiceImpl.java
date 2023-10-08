@@ -18,8 +18,9 @@ public class PersonaServiceImpl extends BaseServiceImpl<Persona,Long> implements
         this.personaRepository = personaRepository;
     }
 
+
     @Override
-    public List<Persona> findAll() throws Exception {
+    public List<Persona> findALL() throws Exception {
         return null;
     }
 }

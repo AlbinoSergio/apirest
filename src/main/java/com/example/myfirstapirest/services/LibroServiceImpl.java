@@ -21,4 +21,9 @@ public class LibroServiceImpl extends BaseServiceImpl<Libro, Long> implements Li
     public List<Libro> findAll() throws Exception {
         return null;
     }
+
+    @Override
+    public List<Libro> findALL() throws Exception {
+        return null;
+    }
 }

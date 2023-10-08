@@ -23,4 +23,9 @@ public class LocalidadServiceImpl extends BaseServiceImpl<Localidad,Long>impleme
     public List<Localidad> findAll() throws Exception {
         return null;
     }
+
+    @Override
+    public List<Localidad> findALL() throws Exception {
+        return null;
+    }
 }

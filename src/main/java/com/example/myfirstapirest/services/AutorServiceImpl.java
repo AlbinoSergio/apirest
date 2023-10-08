@@ -21,4 +21,9 @@ public class AutorServiceImpl extends BaseServiceImpl<Autor, Long> implements Au
     public List<Autor> findAll() throws Exception {
         return null;
     }
+
+    @Override
+    public List<Autor> findALL() throws Exception {
+        return null;
+    }
 }

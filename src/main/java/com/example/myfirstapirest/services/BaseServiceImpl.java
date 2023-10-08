@@ -17,7 +17,7 @@ public abstract class BaseServiceImpl<E extends Base, ID extends Serializable> i
 
     @Override
     @Transactional
-    public List<E> findALL() throws Exception {
+    public List<E> findAll() throws Exception {
         try {
             List<E> entities = baseRepository.findAll();
             return entities;

@@ -21,4 +21,9 @@ public class DomicilioServiceImpl extends BaseServiceImpl<Domicilio,Long> implem
     public List<Domicilio> findAll() throws Exception {
         return null;
     }
+
+    @Override
+    public List<Domicilio> findALL() throws Exception {
+        return null;
+    }
 }
